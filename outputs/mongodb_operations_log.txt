@@ -1,0 +1,53 @@
+COLLECTIONS: ['model_metrics', 'municipalities', 'predictions']
+Documents in municipalities: 4341
+
+[READ] find_one - one municipality (selected fields)
+{'fee': 'PAYT',
+ 'msw': 33956781,
+ 'name': 'Comacchio',
+ 'pop': 22648,
+ 'region': 'Emilia_Romagna',
+ 'sor': 60.07}
+
+[READ] find with filter - 3 PAYT municipalities with sor > 90, sorted by sor
+   {'region': 'Emilia_Romagna', 'name': 'Bastiglia', 'sor': 94.02}
+   {'region': 'Lombardia', 'name': 'San Giovanni del Dosso', 'sor': 93.66}
+   {'region': 'Lombardia', 'name': 'Magnacavallo', 'sor': 92.98}
+
+[READ] count_documents - municipalities per fee type
+   PAYT: 557
+   STANDARD: 3784
+
+[CREATE] insert_one - add a test municipality
+   inserted_id: 6ae2d34d51a60ac63b834ca2
+
+[UPDATE] update_one - change fee system of the test town to PAYT
+   matched: 1 modified: 1
+   {'name': 'Test Town', 'fee': 'PAYT', 'd_fee': 1}
+
+[UPDATE] update_many - flag very high recyclers (sor >= 85)
+   modified: 397
+
+[DELETE] delete_one - remove the test town
+   deleted: 1
+
+[AGGREGATE] average separate-collection % (sor) and municipalities by region (top 5)
+   Veneto                 avg_sor=78.16  n=265
+   Sardegna               avg_sor=75.17  n=121
+   Lombardia              avg_sor=71.77  n=1230
+   Trentino_Alto_Adige    avg_sor=71.18  n=157
+   Friuli_Venezia_Giulia  avg_sor=70.90  n=183
+
+[AGGREGATE] average sor by fee system
+   PAYT       avg_sor=78.09  n=557
+   STANDARD   avg_sor=64.49  n=3784
+
+[INDEX] indexes on municipalities: ['_id_', 'istat_1', 'region_1']
+
+[READ] stored model metrics
+   {'task': 'regression', 'model': 'Linear Regression'}
+   {'task': 'regression', 'model': 'Random Forest Regressor'}
+   {'task': 'classification', 'model': 'Decision Tree'}
+   {'task': 'classification', 'model': 'Logistic Regression'}
+   {'task': 'classification', 'model': 'Random Forest Classifier'}
+   predictions stored: 1734

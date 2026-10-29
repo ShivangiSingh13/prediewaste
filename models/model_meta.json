@@ -1,0 +1,119 @@
+{
+  "feature_columns": [
+    "region",
+    "alt",
+    "isle",
+    "sea",
+    "urb",
+    "fee",
+    "d_fee",
+    "organic",
+    "paper",
+    "glass",
+    "wood",
+    "metal",
+    "plastic",
+    "raee",
+    "texile",
+    "other",
+    "geo",
+    "s_wteregio",
+    "s_landfill",
+    "gdp",
+    "proads",
+    "wage",
+    "finance",
+    "log_pop",
+    "log_area",
+    "log_pden",
+    "log_roads"
+  ],
+  "numeric_defaults": {
+    "alt": 240.0,
+    "isle": 0.0,
+    "sea": 0.0,
+    "urb": 3.0,
+    "d_fee": 0.0,
+    "organic": 24.96855410228353,
+    "paper": 10.87904550064858,
+    "glass": 9.091543908211849,
+    "wood": 4.0245171725427795,
+    "metal": 1.539901674955696,
+    "plastic": 5.7919709789199505,
+    "raee": 1.175169146012416,
+    "texile": 0.6294467488077355,
+    "other": 7.128024284894432,
+    "geo": 3.0,
+    "s_wteregio": 24.46764945983887,
+    "s_landfill": 11.29678535461426,
+    "gdp": 7.128087043762207,
+    "proads": 4.356209754943848,
+    "wage": 9.522799015045166,
+    "finance": 7.341929655075074
+  },
+  "numeric_ranges": {
+    "pop": [
+      34.0,
+      2617175.0
+    ],
+    "area": [
+      0.119999997317791,
+      1287.390014648438
+    ],
+    "alt": [
+      1.0,
+      1816.0
+    ],
+    "gdp": [
+      6.035400867462158,
+      10.53872013092041
+    ],
+    "wage": [
+      7.865573883056641,
+      10.4848518371582
+    ],
+    "organic": [
+      0.0137124352063956,
+      61.63912210305654
+    ],
+    "paper": [
+      1.1456026516e-05,
+      45.28812961738167
+    ],
+    "glass": [
+      1.1071704046e-06,
+      39.83636894906009
+    ],
+    "plastic": [
+      1.39456182867e-05,
+      31.60474144930103
+    ]
+  },
+  "roads_default": 51.0,
+  "regions": [
+    "Abruzzo",
+    "Basilicata",
+    "Calabria",
+    "Campania",
+    "Emilia_Romagna",
+    "Friuli_Venezia_Giulia",
+    "Lazio",
+    "Liguria",
+    "Lombardia",
+    "Marche",
+    "Molise",
+    "Piemonte",
+    "Puglia",
+    "Sardegna",
+    "Sicilia",
+    "Toscana",
+    "Trentino_Alto_Adige",
+    "Umbria",
+    "Valle_d'Aosta",
+    "Veneto"
+  ],
+  "fees": [
+    "PAYT",
+    "STANDARD"
+  ]
+}

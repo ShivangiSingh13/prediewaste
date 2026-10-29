@@ -1,0 +1,628 @@
+{
+  "fee_tests": [
+    {
+      "variable": "Separate collection (%)",
+      "payt_n": 557,
+      "std_n": 3778,
+      "payt_mean": 78.08836624775584,
+      "std_mean": 64.47363155108523,
+      "payt_median": 80.71,
+      "std_median": 69.17500000000001,
+      "mannwhitney_p": 8.512663606561154e-91,
+      "welch_t": 23.558744295523095,
+      "welch_p": 1.696915962662048e-97
+    },
+    {
+      "variable": "Waste per person (kg/year)",
+      "payt_n": 557,
+      "std_n": 3778,
+      "payt_mean": 495.94107523751535,
+      "std_mean": 453.4646302019252,
+      "payt_median": 464.1826846703733,
+      "std_median": 431.2104749086637,
+      "mannwhitney_p": 6.7141836320437e-14,
+      "welch_t": 5.5391211956957624,
+      "welch_p": 4.2068347142815953e-08
+    }
+  ],
+  "regional": [
+    {
+      "region": "Veneto",
+      "n": 261,
+      "avg_sor": 78.17195402298852,
+      "avg_waste": 446.2010418067188,
+      "payt_share": 0.3831417624521073
+    },
+    {
+      "region": "Sardegna",
+      "n": 121,
+      "avg_sor": 75.17256198347107,
+      "avg_waste": 450.95718035863047,
+      "payt_share": 0.0
+    },
+    {
+      "region": "Lombardia",
+      "n": 1228,
+      "avg_sor": 71.76995928338762,
+      "avg_waste": 482.1578915545204,
+      "payt_share": 0.14169381107491857
+    },
+    {
+      "region": "Trentino_Alto_Adige",
+      "n": 157,
+      "avg_sor": 71.17936305732484,
+      "avg_waste": 534.8678477995057,
+      "payt_share": 0.8343949044585988
+    },
+    {
+      "region": "Friuli_Venezia_Giulia",
+      "n": 183,
+      "avg_sor": 70.89562841530055,
+      "avg_waste": 458.92885131350266,
+      "payt_share": 0.18032786885245902
+    },
+    {
+      "region": "Marche",
+      "n": 103,
+      "avg_sor": 70.04747572815535,
+      "avg_waste": 441.18593760847284,
+      "payt_share": 0.009708737864077669
+    },
+    {
+      "region": "Valle_d'Aosta",
+      "n": 1,
+      "avg_sor": 69.17,
+      "avg_waste": 478.42557621253883,
+      "payt_share": 0.0
+    },
+    {
+      "region": "Piemonte",
+      "n": 114,
+      "avg_sor": 67.68166666666667,
+      "avg_waste": 456.98517794734147,
+      "payt_share": 0.03508771929824561
+    },
+    {
+      "region": "Umbria",
+      "n": 59,
+      "avg_sor": 67.41220338983051,
+      "avg_waste": 446.4891183675873,
+      "payt_share": 0.03389830508474576
+    },
+    {
+      "region": "Abruzzo",
+      "n": 155,
+      "avg_sor": 66.96993548387097,
+      "avg_waste": 379.11176881932437,
+      "payt_share": 0.025806451612903226
+    },
+    {
+      "region": "Emilia_Romagna",
+      "n": 308,
+      "avg_sor": 66.43866883116883,
+      "avg_waste": 652.3547111346419,
+      "payt_share": 0.24675324675324675
+    },
+    {
+      "region": "Campania",
+      "n": 405,
+      "avg_sor": 63.41195061728395,
+      "avg_waste": 367.03037967948734,
+      "payt_share": 0.0
+    },
+    {
+      "region": "Lazio",
+      "n": 188,
+      "avg_sor": 60.539734042553185,
+      "avg_waste": 388.440551731074,
+      "payt_share": 0.010638297872340425
+    },
+    {
+      "region": "Liguria",
+      "n": 179,
+      "avg_sor": 59.83145251396648,
+      "avg_waste": 499.57432854616815,
+      "payt_share": 0.027932960893854747
+    },
+    {
+      "region": "Toscana",
+      "n": 231,
+      "avg_sor": 58.637662337662334,
+      "avg_waste": 586.0762559765785,
+      "payt_share": 0.1038961038961039
+    },
+    {
+      "region": "Sicilia",
+      "n": 212,
+      "avg_sor": 56.23462264150943,
+      "avg_waste": 375.2999340983353,
+      "payt_share": 0.0047169811320754715
+    },
+    {
+      "region": "Molise",
+      "n": 70,
+      "avg_sor": 54.35914285714286,
+      "avg_waste": 273.9753459357559,
+      "payt_share": 0.0
+    },
+    {
+      "region": "Puglia",
+      "n": 126,
+      "avg_sor": 53.785555555555554,
+      "avg_waste": 435.22946607277964,
+      "payt_share": 0.0
+    },
+    {
+      "region": "Calabria",
+      "n": 165,
+      "avg_sor": 52.479393939393944,
+      "avg_waste": 330.9022238381031,
+      "payt_share": 0.0
+    },
+    {
+      "region": "Basilicata",
+      "n": 69,
+      "avg_sor": 43.38159420289855,
+      "avg_waste": 284.7482666166221,
+      "payt_share": 0.0
+    }
+  ],
+  "error_stats": {
+    "n": 867,
+    "mean_error_bias": 3.762213462033685,
+    "median_abs_error": 45.92909750970142,
+    "within_50": 0.5259515570934256,
+    "within_100": 0.7820069204152249,
+    "over_200": 0.058823529411764705,
+    "mae_below_1000": 66.0376478502923,
+    "n_above_1000": 14,
+    "mae_above_1000": 740.6119359779319
+  },
+  "top_errors": [
+    {
+      "name": "Limone sul Garda",
+      "region": "Lombardia",
+      "pop": 1151.0,
+      "actual": 2971.131190269331,
+      "predicted": 977.106555168048
+    },
+    {
+      "name": "Lignano Sabbiadoro",
+      "region": "Friuli_Venezia_Giulia",
+      "pop": 6447.0,
+      "actual": 2680.265394757251,
+      "predicted": 1107.5451037356434
+    },
+    {
+      "name": "Bibbona",
+      "region": "Toscana",
+      "pop": 3209.0,
+      "actual": 1795.2172016204424,
+      "predicted": 741.2201694709061
+    },
+    {
+      "name": "Stintino",
+      "region": "Sardegna",
+      "pop": 1501.0,
+      "actual": 1467.6382411725517,
+      "predicted": 577.9730085750107
+    },
+    {
+      "name": "Moniga del Garda",
+      "region": "Lombardia",
+      "pop": 2436.0,
+      "actual": 1191.4043513957306,
+      "predicted": 509.7789730743019
+    },
+    {
+      "name": "San Teodoro",
+      "region": "Sardegna",
+      "pop": 4540.0,
+      "actual": 1346.5297356828194,
+      "predicted": 699.7074673075679
+    },
+    {
+      "name": "Caorle",
+      "region": "Veneto",
+      "pop": 11793.0,
+      "actual": 1286.8296447044856,
+      "predicted": 643.1342692130158
+    },
+    {
+      "name": "Griante",
+      "region": "Lombardia",
+      "pop": 623.0,
+      "actual": 1089.8041733547352,
+      "predicted": 453.74456192403335
+    },
+    {
+      "name": "San Giovanni di FassaS\u00e8n Jan",
+      "region": "Trentino_Alto_Adige",
+      "pop": 3345.0,
+      "actual": 965.72466367713,
+      "predicted": 464.467194469955
+    },
+    {
+      "name": "L'Aquila",
+      "region": "Abruzzo",
+      "pop": 66964.0,
+      "actual": 520.661922824204,
+      "predicted": 1001.7275690396697
+    }
+  ],
+  "describe": [
+    {
+      "variable": "tc",
+      "missing_pct": 0.0,
+      "mean": 154.285889266739,
+      "std": 76.10190782003797,
+      "min": 25.69000053405762,
+      "median": 136.6499938964844,
+      "max": 977.4199829101564
+    },
+    {
+      "variable": "cres",
+      "missing_pct": 1.1995386389850058,
+      "mean": 54.201351866832326,
+      "std": 43.21206074883097,
+      "min": 4.269999980926514,
+      "median": 41.68999862670898,
+      "max": 670.3200073242188
+    },
+    {
+      "variable": "csor",
+      "missing_pct": 1.5455594002306805,
+      "mean": 52.68827549257117,
+      "std": 33.07869606492891,
+      "min": 3.390000104904175,
+      "median": 48.89000129699707,
+      "max": 582.1599731445312
+    },
+    {
+      "variable": "area",
+      "missing_pct": 0.0,
+      "mean": 40.995044960762186,
+      "std": 56.784025154354666,
+      "min": 0.119999997317791,
+      "median": 22.72999954223633,
+      "max": 1287.390014648438
+    },
+    {
+      "variable": "pop",
+      "missing_pct": 0.0,
+      "mean": 10209.288581314879,
+      "std": 53463.01304170875,
+      "min": 34.0,
+      "median": 3533.0,
+      "max": 2617175.0
+    },
+    {
+      "variable": "alt",
+      "missing_pct": 0.0,
+      "mean": 310.0521337946943,
+      "std": 280.534305547894,
+      "min": 1.0,
+      "median": 240.0,
+      "max": 1816.0
+    },
+    {
+      "variable": "isle",
+      "missing_pct": 0.0,
+      "mean": 0.005074971164936563,
+      "std": 0.07106603166795497,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 1.0
+    },
+    {
+      "variable": "sea",
+      "missing_pct": 0.0,
+      "mean": 0.16839677047289503,
+      "std": 0.374261419274369,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 1.0
+    },
+    {
+      "variable": "pden",
+      "missing_pct": 0.0,
+      "mean": 405.0482516299207,
+      "std": 771.2119596549833,
+      "min": 2.479941606521606,
+      "median": 151.3236236572266,
+      "max": 12122.826171875
+    },
+    {
+      "variable": "wden",
+      "missing_pct": 0.0,
+      "mean": 192057.79148454676,
+      "std": 359001.37188927917,
+      "min": 892.1847534179688,
+      "median": 68342.5859375,
+      "max": 4978556.5
+    },
+    {
+      "variable": "urb",
+      "missing_pct": 0.0,
+      "mean": 2.4899653979238754,
+      "std": 0.594800089890273,
+      "min": 1.0,
+      "median": 3.0,
+      "max": 3.0
+    },
+    {
+      "variable": "d_fee",
+      "missing_pct": 0.0,
+      "mean": 0.1284890426758939,
+      "std": 0.3346721471250126,
+      "min": 0.0,
+      "median": 0.0,
+      "max": 1.0
+    },
+    {
+      "variable": "organic",
+      "missing_pct": 11.810841983852365,
+      "mean": 22.27442522735717,
+      "std": 12.749158209029689,
+      "min": 0.0137124352063956,
+      "median": 24.96855410228353,
+      "max": 61.63912210305654
+    },
+    {
+      "variable": "paper",
+      "missing_pct": 0.5767012687427913,
+      "mean": 10.961462151478532,
+      "std": 3.8850126438239942,
+      "min": 1.1456026516e-05,
+      "median": 10.87904550064858,
+      "max": 45.28812961738167
+    },
+    {
+      "variable": "glass",
+      "missing_pct": 0.7612456747404844,
+      "mean": 9.40420484234287,
+      "std": 3.7089194333547373,
+      "min": 1.1071704046e-06,
+      "median": 9.091543908211849,
+      "max": 39.83636894906009
+    },
+    {
+      "variable": "wood",
+      "missing_pct": 25.259515570934255,
+      "mean": 4.1141389781656486,
+      "std": 2.718375822871557,
+      "min": 7.96919809307e-09,
+      "median": 4.0245171725427795,
+      "max": 25.11700170233176
+    },
+    {
+      "variable": "metal",
+      "missing_pct": 5.674740484429066,
+      "mean": 1.7632673092333861,
+      "std": 1.3497703724246841,
+      "min": 5.14018141223e-06,
+      "median": 1.539901674955696,
+      "max": 20.67145744441949
+    },
+    {
+      "variable": "plastic",
+      "missing_pct": 0.8996539792387545,
+      "mean": 6.110753922804269,
+      "std": 3.261386990819196,
+      "min": 1.39456182867e-05,
+      "median": 5.7919709789199505,
+      "max": 31.60474144930103
+    },
+    {
+      "variable": "raee",
+      "missing_pct": 7.243367935409458,
+      "mean": 1.2327814231668324,
+      "std": 0.8216137775028268,
+      "min": 7.1165935239e-07,
+      "median": 1.175169146012416,
+      "max": 17.95359214217433
+    },
+    {
+      "variable": "texile",
+      "missing_pct": 23.367935409457903,
+      "mean": 0.7573860162596374,
+      "std": 0.6884262236761085,
+      "min": 1.08057875798e-06,
+      "median": 0.6294467488077355,
+      "max": 10.58447187895521
+    },
+    {
+      "variable": "other",
+      "missing_pct": 3.1372549019607843,
+      "mean": 7.937318214688385,
+      "std": 5.150097851160531,
+      "min": 0.0294626439393271,
+      "median": 7.128024284894432,
+      "max": 37.155919386933
+    },
+    {
+      "variable": "msw_so",
+      "missing_pct": 0.0,
+      "mean": 3250237.4979861593,
+      "std": 15631750.930697396,
+      "min": 0.27,
+      "median": 1038125.0,
+      "max": 765130099.0
+    },
+    {
+      "variable": "msw_un",
+      "missing_pct": 0.0,
+      "mean": 2044581.3416378316,
+      "std": 17656727.243546456,
+      "min": 6185.0,
+      "median": 408460.0,
+      "max": 926757220.0
+    },
+    {
+      "variable": "msw",
+      "missing_pct": 0.0,
+      "mean": 5315084.835755479,
+      "std": 32566360.020429086,
+      "min": 19972.0,
+      "median": 1523226.0,
+      "max": 1691887319.0
+    },
+    {
+      "variable": "sor",
+      "missing_pct": 0.0,
+      "mean": 66.22297577854671,
+      "std": 17.736907842639518,
+      "min": 0.25,
+      "median": 70.84,
+      "max": 97.48
+    },
+    {
+      "variable": "geo",
+      "missing_pct": 6.43598615916955,
+      "mean": 2.290803747534517,
+      "std": 0.8876112639007359,
+      "min": 1.0,
+      "median": 3.0,
+      "max": 3.0
+    },
+    {
+      "variable": "roads",
+      "missing_pct": 10.08073817762399,
+      "mean": 101.93112109672602,
+      "std": 309.98586478979934,
+      "min": 1.0,
+      "median": 51.0,
+      "max": 14970.0
+    },
+    {
+      "variable": "s_wteregio",
+      "missing_pct": 6.43598615916955,
+      "mean": 21.86745957298392,
+      "std": 15.624688323588874,
+      "min": 0.0,
+      "median": 24.46764945983887,
+      "max": 65.1220932006836
+    },
+    {
+      "variable": "s_landfill",
+      "missing_pct": 6.43598615916955,
+      "mean": 20.000860243153994,
+      "std": 21.371373061822727,
+      "min": 3.602712631225586,
+      "median": 11.29678535461426,
+      "max": 92.5318603515625
+    },
+    {
+      "variable": "gdp",
+      "missing_pct": 8.765859284890427,
+      "mean": 7.231158989328802,
+      "std": 0.5500408342680416,
+      "min": 6.035400867462158,
+      "median": 7.128087043762207,
+      "max": 10.53872013092041
+    },
+    {
+      "variable": "proads",
+      "missing_pct": 10.08073817762399,
+      "mean": 4.253962481315088,
+      "std": 1.155765011743271,
+      "min": -3.366592645645142,
+      "median": 4.356209754943848,
+      "max": 8.980027198791504
+    },
+    {
+      "variable": "wage",
+      "missing_pct": 6.43598615916955,
+      "mean": 9.446967550048226,
+      "std": 0.2981223441092559,
+      "min": 7.865573883056641,
+      "median": 9.522799015045166,
+      "max": 10.4848518371582
+    },
+    {
+      "variable": "finance",
+      "missing_pct": 8.765859284890427,
+      "mean": 7.448093759008666,
+      "std": 0.5665420592960829,
+      "min": 6.216462893486023,
+      "median": 7.341929655075074,
+      "max": 10.85488173484802
+    },
+    {
+      "variable": "top_recycler",
+      "missing_pct": 90.86505190311419,
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "median": 1.0,
+      "max": 1.0
+    },
+    {
+      "variable": "waste_per_capita",
+      "missing_pct": 0.0,
+      "mean": 458.9223879608234,
+      "std": 176.5120355787663,
+      "min": 111.63235294117646,
+      "median": 435.7685009487666,
+      "max": 2971.131190269331
+    }
+  ],
+  "sample_municipality": {
+    "region": "Emilia_Romagna",
+    "province": "Ferrara",
+    "name": "Comacchio",
+    "istat": 38006,
+    "area": 283.75,
+    "pop": 22648,
+    "fee": "PAYT",
+    "d_fee": 1,
+    "organic": null,
+    "paper": 4.363508425607245,
+    "msw": 33956781,
+    "sor": 60.07
+  },
+  "sample_prediction": {
+    "istat": 3002,
+    "name": "Ameno",
+    "region": "Piemonte",
+    "task": "classification",
+    "actual_class": "Medium",
+    "predicted_class": "Medium",
+    "created_at": "2026-10-29 05:02:00.530000"
+  },
+  "sample_metrics": {
+    "task": "classification",
+    "model": "Decision Tree",
+    "metrics": {
+      "Accuracy": 0.6955,
+      "Precision": 0.6921,
+      "Recall": 0.6955,
+      "F1": 0.6934
+    },
+    "confusion_matrix": [
+      [
+        234,
+        42,
+        13
+      ],
+      [
+        56,
+        161,
+        72
+      ],
+      [
+        13,
+        68,
+        208
+      ]
+    ],
+    "labels": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "train_size": 3468,
+    "test_size": 867,
+    "created_at": "2026-10-29 05:02:00.530000"
+  }
+}
